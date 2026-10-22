@@ -1,1 +1,1 @@
-# retail-sales-performance-analysis-and-demand-forecasting
+# Sales performance analysis and demand forecasting

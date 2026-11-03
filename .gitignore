@@ -1,5 +1,0 @@
-# data folder (data/raw/ and data/processed/)
-data/
-
-# Jupyter Notebooks
-.ipynb_checkpoints/

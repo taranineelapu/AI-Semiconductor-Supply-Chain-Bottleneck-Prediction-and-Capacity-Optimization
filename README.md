@@ -4,7 +4,7 @@
 
 > **Project objective:** Identify semiconductor production bottlenecks, assess facility-level operational risk, predict advanced packaging backlogs, and help operations managers prioritize capacity interventions.
 
-**Interactive Tableau dashboards:** [[Live Dashboard 1](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)] · [[Live Dashboard 2](https://public.tableau.com/views/Semiconductorpackagingbacklogforecastingandcapacityanalysis/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
+**Interactive Tableau dashboards:** [[Live Dashboard 1](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)] · [[Live Dashboard 2](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
 
 ---
 
@@ -101,7 +101,7 @@ The second dashboard adds a forward-looking layer:
 
 **Dashboard screenshot**
 
-*Add your published Tableau dashboard URL here: [Dashboard 2 — Interactive View]([YOUR_DASHBOARD_2_URL](https://public.tableau.com/views/AISemiconductorpackagingbacklogforecastingandcapacityanalysis/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))*
+*Add your published Tableau dashboard URL here: [Dashboard 2 — Interactive View]([YOUR_DASHBOARD_2_URL](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))*
 
 **Important distinction:** A facility with a **high predicted backlog** is forecast to face a longer packaging queue; a facility **requiring immediate attention** is identified by a broader prioritization rule. These groups may overlap, but they are not necessarily identical.
 

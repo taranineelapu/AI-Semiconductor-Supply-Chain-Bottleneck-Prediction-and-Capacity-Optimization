@@ -1,4 +1,4 @@
-# AI Semiconductor Supply Chain Analytics & Predictive Packaging Backlog Forecasting
+# AI Semiconductor Supply Chain Analytics & Packaging Backlog Prediction
 
 **Python | Tableau | Predictive Analytics | Regression Models | Supply Chain Risk | Semiconductor Manufacturing**
 

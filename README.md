@@ -69,8 +69,8 @@ The predictive task estimates packaging queue duration using manufacturing and p
 
 | Model | Role |
 |---|---|
-| LightGBM Regressor | Gradient-boosted decision trees for nonlinear relationships |
-| CatBoost Regressor | Gradient boosting suited to datasets with categorical features |
+| LightGBM Regression | Gradient-boosted decision trees for nonlinear relationships |
+| CatBoost Regression | Gradient boosting suited to datasets with categorical features |
 | Bayesian Ridge Regression | Linear benchmark for evaluating gains over a simpler model |
 
 **Evaluation framework:**

@@ -4,7 +4,7 @@
 
 > **Project objective:** Identify semiconductor production bottlenecks, assess facility-level operational risk, predict advanced packaging backlogs, and help operations managers prioritize capacity interventions.
 
-**Interactive Tableau dashboards:** [[Live Dashboard 1](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)] · [[Live Dashboard 2](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
+**Interactive Tableau dashboards:** [Descriptive supply chain performance & risk dashboard](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) · [Predictive packaging backlog dashboard](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -14,8 +14,8 @@ The AI semiconductor supply chain faces complex capacity constraints across wafe
 
 This project combines **descriptive and diagnostic supply chain analytics** with **predictive regression modeling** to evaluate manufacturing performance and anticipate advanced packaging congestion. Two Tableau dashboards translate the analysis into facility-level insights:
 
-- **Dashboard 1 — Supply Chain Performance & Risk:** Examines wafer capacity, utilization, yield, packaging queues, supply chain vulnerability, and operational prioritization.
-- **Dashboard 2 — Predictive Packaging Backlog & Capacity:** Presents model-predicted packaging backlog, highlights facilities with elevated forecasted delays, and supports capacity planning and prioritization.
+- **Dashboard 1 - Supply Chain Performance & Risk:** Examines wafer capacity, utilization, yield, packaging queues, supply chain vulnerability, and operational prioritization.
+- **Dashboard 2 - Predictive Packaging Backlog & Capacity:** Presents model-predicted packaging backlog, highlights facilities with elevated forecasted delays, and supports capacity planning and prioritization.
 
 The question we are answering is: **Where are the biggest production bottlenecks and supply chain risks, which facilities require attention today, and which may face packaging delays based on predicted backlog?**
 
@@ -45,7 +45,7 @@ Operations managers need answers to questions such as:
 
 ### Data Understanding and Preparation
 
-### Dashboard 1 — Supply Chain Performance & Risk Analysis
+### [Dashboard 1](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link): Supply Chain Performance & Risk Analysis
 
 **Business question:** *Where are current production bottlenecks and supply chain vulnerabilities, and which facilities should operations managers prioritize?*
 
@@ -57,11 +57,9 @@ The first dashboard examines:
 - **Supply chain vulnerability:** Facility-level exposure to broader disruption risks.
 - **Priority classification:** Operational indicators combined to flag facilities requiring review.
 
-*Add your published Tableau dashboard URL here: [Dashboard 1 — Interactive View]([YOUR_DASHBOARD_1_URL](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))*
-
 **Operational value:** Helps managers understand **what is happening now** and identify the facilities where existing capacity constraints and risk indicators warrant attention.
 
-### Predictive Modeling — Advanced Packaging Backlog
+### Predictive Modeling: Packaging Backlog
 
 **Prediction target:** `packaging_backlog_weeks` (continuous, measured in weeks).
 
@@ -87,7 +85,7 @@ The predictive task estimates packaging queue duration using manufacturing and p
 | CatBoost | 3.5464 | 4.6459 | 0.8067 |
 | Bayesian Ridge | 3.5338 | 4.6310 | 0.8079 |
 
-### Dashboard 2 — Predictive Packaging Backlog & Capacity Analysis
+### [Dashboard 2](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link): Predictive Packaging Backlog & Capacity Analysis
 
 **Business question:** *Which facilities are predicted to experience longer packaging delays, and where should managers intervene proactively?*
 
@@ -99,11 +97,7 @@ The second dashboard adds a forward-looking layer:
 - Operational attention indicators combining prediction outputs with capacity context.
 - Interactive views to investigate facilities and relevant manufacturing characteristics.
 
-**Dashboard screenshot**
-
-*Add your published Tableau dashboard URL here: [Dashboard 2 — Interactive View]([YOUR_DASHBOARD_2_URL](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))*
-
-**Important distinction:** A facility with a **high predicted backlog** is forecast to face a longer packaging queue; a facility **requiring immediate attention** is identified by a broader prioritization rule. These groups may overlap, but they are not necessarily identical.
+**Note:** A facility with a **high predicted backlog** is forecast to face a longer packaging queue; a facility **requiring immediate attention** is identified by a broader prioritization rule. These groups may overlap, but they are not necessarily identical.
 
 ### End-to-End Analytical Workflow
 

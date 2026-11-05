@@ -4,7 +4,7 @@
 
 > **Project objective:** Identify semiconductor production bottlenecks, assess facility-level operational risk, predict advanced packaging backlogs, and help operations managers prioritize capacity interventions.
 
-**Interactive Tableau dashboards:** [[Add Dashboard 1 link](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)] · [[Add Dashboard 2 link](https://public.tableau.com/views/Semiconductorpackagingbacklogforecastingandcapacityanalysis/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
+**Interactive Tableau dashboards:** [[Live Dashboard 1](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)] · [[Live Dashboard 2](https://public.tableau.com/views/Semiconductorpackagingbacklogforecastingandcapacityanalysis/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
 
 ---
 

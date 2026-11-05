@@ -106,7 +106,7 @@ The second dashboard adds a forward-looking layer:
 
 **Important distinction:** A facility with a **high predicted backlog** is forecast to face a longer packaging queue; a facility **requiring immediate attention** is identified by a broader prioritization rule. These groups may overlap, but they are not necessarily identical.
 
-### 4.5 End-to-End Analytical Workflow
+### End-to-End Analytical Workflow
 
 ```text
 Semiconductor Supply Chain Data

@@ -69,7 +69,7 @@ The predictive task estimates packaging queue duration using manufacturing and p
 
 | Model | Role |
 |---|---|
-| LightGBM Regression | Gradient-boosted decision trees for nonlinear relationships |
+| LightGBM Regression | Gradient-boosting decision trees for nonlinear relationships |
 | CatBoost Regression | Gradient boosting suited to datasets with categorical features |
 | Bayesian Ridge Regression | Linear benchmark for evaluating gains over a simpler model |
 
@@ -135,7 +135,7 @@ Semiconductor Supply Chain Data
 
 | Area | Tools and methods |
 |---|---|
-| Programming | Python, Pandas, NumPy |
+| Programming | Python, Pandas, NumPy, Seaborn, Matplotlib, scikit-learn |
 | Visualization | Tableau, KPI design |
 | Predictive analytics | Regression modeling, gradient-boosted decision trees |
 | Model evaluation | MAE, RMSE, R² |

@@ -6,7 +6,7 @@
 
 **Interactive Tableau dashboards:** [Descriptive supply chain performance & risk dashboard](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) · [Predictive packaging backlog dashboard](https://public.tableau.com/views/AISemiconductorPackagingBacklogPredictionOperationalPrioritization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-*Note: This dashboard utilizes a simulated dataset to model high-end semiconductor packaging constraints, capacity metrics, and operational workflows for demonstration purposes.*
+*Note: This dashboard utilizes a simulated dataset to model semiconductor packaging constraints, capacity metrics, and operational workflows for demonstration purposes.*
 
 ---
 

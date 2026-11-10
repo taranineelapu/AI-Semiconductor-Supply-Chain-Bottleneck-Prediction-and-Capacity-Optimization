@@ -4,7 +4,9 @@
 
 > **Project objective:** Identify semiconductor production bottlenecks, assess facility-level operational risk, predict advanced packaging backlogs, and help operations managers prioritize capacity interventions.
 
-**Interactive Tableau dashboards:** [Descriptive supply chain performance & risk dashboard](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) · [Predictive packaging backlog dashboard](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Interactive Tableau dashboards:** [Descriptive supply chain performance & risk dashboard](https://public.tableau.com/views/AISemiconductorSupplyChain-OperationsOverview/Dashboard1-AISemiconductorSupplyChain-OperationsOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) · [Predictive packaging backlog dashboard](https://public.tableau.com/views/AISemiconductorPackagingBacklogPredictionOperationalPrioritization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+*Note: This dashboard utilizes a simulated dataset to model high-end semiconductor packaging constraints, capacity metrics, and operational workflows for demonstration purposes.*
 
 ---
 
@@ -85,7 +87,7 @@ The predictive task estimates packaging queue duration using manufacturing and p
 | CatBoost | 3.5464 | 4.6459 | 0.8067 |
 | Bayesian Ridge | 3.5338 | 4.6310 | 0.8079 |
 
-### [Dashboard 2](https://public.tableau.com/views/AISemiconductorpackagingbacklogpredictionandcapacityoptimization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link): Predictive Packaging Backlog & Capacity Analysis
+### [Dashboard 2](https://public.tableau.com/views/AISemiconductorPackagingBacklogPredictionOperationalPrioritization/Dashboard2-PredictiveBacklogAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link): Predictive Packaging Backlog & Capacity Analysis
 
 **Business question:** *Which facilities are predicted to experience longer packaging delays, and where should managers intervene proactively?*
 
